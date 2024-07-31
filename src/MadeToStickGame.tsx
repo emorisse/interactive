@@ -63,7 +63,7 @@ const MadeToStickGame = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
       <div className="bg-gray-100 p-8 rounded-xl max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold text-center mb-6">Erich Morisse's moderately accurate, and completely AI Generated Resume Game&trade;</h2>
         <p className="text-center mb-4">Match Erich's principles with the corresponding outcome. Score: {score}</p>
