@@ -10,12 +10,12 @@ const MadeToStickGame = () => {
   const [gameOver, setGameOver] = useState(false);
 
   const principles = useMemo(() => [
-    { name: "Simple", icon: ArrowUpRight, content: "Transform complex AI into business-driving solutions" },
-    { name: "Unexpected", icon: Brain, content: "Turn 100-page manual into one-click, revenue-boosting solution" },
+    { name: "Headline", icon: ArrowUpRight, content: "Transforms complex AI into business-driving solutions" },
+    { name: "Unexpected", icon: Brain, content: "Turned AI experiment into 12+ internal tools" },
     { name: "Concrete", icon: FileText, content: "Launched Red Hat's first AI product for infrastructure code" },
     { name: "Credible", icon: TrendingUp, content: "20+ years turning cutting-edge tech into market leaders" },
     { name: "Passionate", icon: Heart, content: "Making AI accessible and valuable" },
-    { name: "Results", icon: BookOpen, content: "Transformed bank's cloud costs into industry-leading success story" }
+    { name: "Results", icon: BookOpen, content: "42% increase in 'cloud tco' search on Google following report" }
   ], []);
 
   useEffect(() => {
