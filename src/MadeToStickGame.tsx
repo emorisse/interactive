@@ -15,7 +15,7 @@ const MadeToStickGame = () => {
     { name: "Concrete", icon: FileText, content: "Launched Red Hat's first AI product for infrastructure code" },
     { name: "Credible", icon: TrendingUp, content: "20+ years turning cutting-edge tech into market leaders" },
     { name: "Passionate", icon: Heart, content: "Making AI accessible and valuable" },
-    { name: "Results", icon: BookOpen, content: "42% increase in 'cloud tco' search on Google following report" }
+    { name: "Results", icon: BookOpen, content: "42% increase in 'Cloud TCO' search on Google following research" }
   ], []);
 
   useEffect(() => {
